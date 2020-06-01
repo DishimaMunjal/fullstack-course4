@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+var a=10;
+var b=1.2;
+var c=true;
+var e,f,g;
+
+
+function test1()
+{
+f=200;
+alert("Basics of java"+""+a +"f);
+}
+function test2()
+{
+var f;
+alert("Basics of java"+""+a +"f);
+}
+</script>
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+document.write("hello"+"<br>");
+</script>
+<input type="button" onclick="test1()" value="button">
+<input type="button" onclick="test2()" value="button">
+</body>
+</html>
